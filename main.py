@@ -6,7 +6,7 @@
 #HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 greeting = 'Welcome to the tip calculator.'
 print(greeting)
-bill = input('What was the total bill? ')
+bill = input('What was the total bill? $')
 tip_amount = input('What percentage tip would you like to give? 10, 12, or 15? ')
 party = input('How many people to split the bill ? ')
 tip_total = (float(bill) / int(party)) * (int(tip_amount) / 100)
